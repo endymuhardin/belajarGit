@@ -1,0 +1,16 @@
+Subversion vs Git
+
+Di awal tahun yang baru ini, kurang afdol rasanya kalau tidak ada yang baru di kantor. Oleh karena itu, saya pikir sudah saatnya kita menggunakan cara kerja yang lebih baru dan efisien. Kali ini, cara kerja yang lebih baru akan direalisasikan dengan version control yang baru juga, yaitu Git, menggantikan Subversion yang telah kami gunakan sejak ArtiVisi mulai, yaitu tahun 2008. 
+
+Beberapa alasan migrasi antara lain : 
+- offline operation : Git merupakan decentralized version control system (DVCS), sehingga bisa dioperasikan secara offline (tidak membutuhkan koneksi ke server pusat).
+- fenomena social coding : sekarang sudah hadir Github dan Gitorious, yang merupakan Facebooknya para programmer. Banyak project open source seperti Android, Spring, Rails, yang menggunakan Git sebagai version controlnya. Kalau kita tidak mengikuti, programmer kita akan menjadi kuper di dunia internasional. 
+
+Dengan mudahnya offline operation menggunakan DVCS, di internal perusahaan, kami mengharapkan adanya kemudahan dalam coding, yaitu : 
+- commit per task, bukan per online : selama ini, programmer commit pada waktu dia punya koneksi internet, bukan pada saat selesai satu task. Akibatnya, dalam satu commit tidak bisa dibedakan perubahan mana untuk task yang mana. Ini menyulitkan proses review terhadap source code. 
+Hal ini terjadi karena programmer tidak bisa commit kapanpun dia mau, terkendala oleh ketersediaan internet. 
+
+Dengan menggunakan DVCS, programmer bisa commit kapanpun, dan sync pada waktu ada internet. Jadi, kali ini kami mengharapkan ada relasi yang jelas antara task dan commit. Satu commit hanya boleh berisi perubahan untuk satu task saja, walaupun satu task bisa dikerjakan dalam berkali-kali commit. Dengan demikian, orang yang mereview dapat lebih mudah memahami korelasi antara perubahan source code dengan task yang diassign ke programmer. 
+
+
+

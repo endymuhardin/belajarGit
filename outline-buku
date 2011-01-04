@@ -1,0 +1,66 @@
+Outline Buku Git
+
+part 1 : basic
+- apa itu version control
+- sejarah git
+- cara kerja git
+  - patch
+  - merge
+- instalasi git
+- konsep dan istilah
+  - repo
+  - index/staging
+  - changeset
+  - delta
+  - diff
+  - commit
+  - snapshot
+  - head
+  - HEAD
+  - branch
+  - tag
+  - master
+- basic command
+  - init
+  - add
+  - add interactive
+  - commit
+  - branch
+  - merge
+  - log
+  - diff
+  - format-patch
+  - am
+  - merapikan commit dengan rebase
+- remote command
+  - clone
+  - fetch
+  - merge dari origin
+  - pull
+  - push current branch
+  - push branch lain
+  - track remote branch
+  - delete remote branch
+  - rebase
+
+part 2 : kolaborasi
+- sharing repository
+  - via ssh server
+  - gitosis
+  - instaweb
+  - gitweb
+  - dav
+- workflow
+  - centralized repo (alumni svn)
+  - pull request (github)
+- social coding
+  - github
+  - gitorious
+
+part 3 : administration
+- instalasi server
+  - gitosis
+  - gitweb
+  - instaweb
+- migrasi dari subversion
+- integrasi dengan redmine

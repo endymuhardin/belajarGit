@@ -1,0 +1,19 @@
+Instalasi Git di Windows
+
+Komponen : 
+1. Putty
+2. MSysGit
+3. TortoiseGit
+
+
+Putty
+1. Instalasi
+2. Generate keypair
+3. Save private key
+4. Export public key dalam format OpenSSH
+5. Kirim public key ke admin repo
+
+MSysGit
+TortoiseGit
+
+
