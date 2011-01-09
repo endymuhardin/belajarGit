@@ -1,0 +1,50 @@
+Git Workflows 
+
+
+1. Alumni Subversion
+Ciri khas : 
+- semua commit dicampur di trunk
+- commit per online, bukan per task
+- branch cuma untuk maintenance rilis
+
+Cara kerja
+git clone
+hack hack hack
+git commit -am "log message"
+git pull 
+git push
+
+Outcome : 
+- commit gak jelas juntrungannya
+- tiap commit tidak bisa diapply sebagai patch yang solid
+- merge commit di mana2
+
+
+2. Git Zealot
+Ciri khas : 
+- commit per task
+- bikin branch even untuk ngerjain 1 commit doang
+- rebase melulu
+
+Cara kerja : 
+git clone
+git checkout -b topic-branch
+hack hack hack
+git add -i
+pilih hunk yang mau distage
+commit 
+format-patch
+send untuk review/pull request
+
+checkout master
+fetch upstream
+merge master
+checkout topic-branch 
+rebase master
+
+
+Outcome : 
+- clean, linear history
+- patch bisa diapply secara clean
+- tiap commit jelas urusannya
+- butuh waktu lama untuk pilih2 hunk
