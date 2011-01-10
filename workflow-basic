@@ -1,0 +1,25 @@
+Workflow Basic
+
+git clone
+
+git branch -a
+
+git checkout -b topic-branch
+
+hack ... hack ... hack ... 
+
+git add . 
+
+git commit -m "commit log"
+
+git checkout master
+
+git pull 
+
+git merge topic-branch
+
+resolve conflicts 
+
+git push
+
+

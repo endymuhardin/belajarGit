@@ -12,6 +12,7 @@ git clone
 hack hack hack
 git commit -am "log message"
 git pull 
+resolve conflicts
 git push
 
 Outcome : 
@@ -27,20 +28,33 @@ Ciri khas :
 - rebase melulu
 
 Cara kerja : 
-git clone
+Clone dulu project yang mau dikerjakan
+git clone myrepo
 git checkout -b topic-branch
 hack hack hack
 git add -i
 pilih hunk yang mau distage
 commit 
-format-patch
-send untuk review/pull request
+git push origin topic-branch
+Jangan gunakan master untuk kerja, master hanya untuk track upstream. 
 
+
+Prepare release
 checkout master
+remote add upstream
 fetch upstream
-merge master
+merge master upstream/master
 checkout topic-branch 
-rebase master
+pilih : 
+ - rebase master (awas intermediate commit juga harus ditest)
+ - checkout master, merge topic-branch (jadi ada merge commit) -> preferred seperti katanya nvie. 
+   http://nvie.com/posts/a-successful-git-branching-model/
+resolve conflicts
+- commit
+
+Send pull request
+git format-patch
+send untuk review/pull request
 
 
 Outcome : 
