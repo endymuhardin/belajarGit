@@ -1,6 +1,6 @@
 Instalasi Git di Windows
 
-Komponen : 
+Sebelum melakukan proses installasi Git di Windows, ada beberapa hal yang perlu dipersiapkan antara lain yaitu :
 1. Putty
 2. MSysGit
 3. TortoiseGit
