@@ -1,19 +1,11 @@
-Instalasi Git di Windows
+Installasi git di windows
 
-Sebelum melakukan proses installasi Git di Windows, ada beberapa hal yang perlu dipersiapkan antara lain yaitu :
-1. Putty
-2. MSysGit
-3. TortoiseGit
+1. Pertama download git di https://git-scm.com/downloads, pilih version untuk windows.
 
+2. Kemudian install git seperti biasa, seperti menginstall aplikasi atau program pada umumnya. Tinggal next saja hingga muncul proses instalasi.
 
-Putty
-1. Instalasi
-2. Generate keypair
-3. Save private key
-4. Export public key dalam format OpenSSH
-5. Kirim public key ke admin repo
+3. Proses installasi git sedang berlangsung, mohon untuk menunggu beberapa menit hingga proses selesai.
 
-MSysGit
-TortoiseGit
+4. Proses installasi git telah selesai dan berhasil.
 
-
+5. Apabila proses intallasi git telah berhasil, maka akan muncul 3 shortcut yaitu Git Bash, Git CMD, Git GUI
