@@ -20,8 +20,8 @@
 [Git For Windows Developers – Git Series](https://lostechies.com/jasonmeridth/2009/06/01/git-for-windows-developers-git-series-part-1/)  
 
 # Tutorial git
-[Git Tutorial - Try Git](https://try.github.io/levels/1/challenges/1)
-[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+[Git Tutorial - Try Git](https://try.github.io/levels/1/challenges/1)  
+[How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)  
 
 # git am
 [Git Manual Page](https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html)
