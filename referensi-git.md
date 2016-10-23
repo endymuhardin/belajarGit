@@ -1,4 +1,4 @@
-# konsep git
+# Konsep Git
 
 [Mercurial VS Git](https://rg03.wordpress.com/2009/04/07/mercurial-vs-git/)  
 [Understanding Git Conceptually](http://www.eecs.harvard.edu/~cduan/technical/git/)  
@@ -11,7 +11,7 @@
 [Github Guides](https://guides.github.com/)
 
 
-# git di windows
+# Git di Windows
 [Github, Windows and TortoiseGit - Part 1 Installing Pulling](https://dbanck.svbtle.com/github-windows-and-tortoisegit-part-1-installing-pulling)  
 [Set Up Git](https://help.github.com/articles/set-up-git/#platform-windows)  
 [Dealing wit Line Endings](https://help.github.com/articles/dealing-with-line-endings/)  
@@ -19,9 +19,7 @@
 [An Illustrated Guide to Git on Windows](http://nathanj.github.io/gitguide/tour.html)  
 [Git For Windows Developers – Git Series](https://lostechies.com/jasonmeridth/2009/06/01/git-for-windows-developers-git-series-part-1/)  
 
-# Tutorial git
+# Tutorial Git
 [Git Tutorial - Try Git](https://try.github.io/levels/1/challenges/1)  
 [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)  
-
-# git am
 [Git Manual Page](https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html)
