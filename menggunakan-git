@@ -26,12 +26,13 @@ rm :
 Workflow
 
 1. Instalasi
-apt-get install git-svn
+apt-get install git-svn (jika Anda sudah root)
+sudo apt-get install git-svn (untuk beberapa OS seperti Ubuntu yang menggunakan 'sudo')
 
 2. Checkout svn repo
 git svn clone -s http://blabla 
 
-3. Konfigurasi dulu user dan email
+3. Konfigurasi dulu nama user dan email user
 git config --global user.name "Endy Muhardin"
 git config --global user.email "endy@artivisi.com"
 
