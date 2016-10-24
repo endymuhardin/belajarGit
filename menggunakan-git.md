@@ -462,8 +462,8 @@ git-filter-branch --env-filter "export GIT_AUTHOR_NAME='New name'; export GIT_AU
 ```
 
 ### Sumber
-[Creating a svn.authorsfile when migrating from subversion to git](http://technicalpickles.com/posts/creating-a-svn-authorsfile-when-migrating-from-subversion-to-git/)
-[Cleanly Migrate Your Subversion Repository To a GIT Repository](http://www.jonmaddox.com/2008/03/05/cleanly-migrate-your-subversion-repository-to-a-git-repository/)
-[How to migrate SVN repository with history to a new Git repository?](http://stackoverflow.com/questions/79165/how-to-migrate-svn-with-history-to-a-new-git-repository)
-[SVN to GIT migration](http://jausoft.com/blog/2009/07/08/svn-to-git-migration-1/)
+[Creating a svn.authorsfile when migrating from subversion to git](http://technicalpickles.com/posts/creating-a-svn-authorsfile-when-migrating-from-subversion-to-git/)  
+[Cleanly Migrate Your Subversion Repository To a GIT Repository](http://www.jonmaddox.com/2008/03/05/cleanly-migrate-your-subversion-repository-to-a-git-repository/)  
+[How to migrate SVN repository with history to a new Git repository?](http://stackoverflow.com/questions/79165/how-to-migrate-svn-with-history-to-a-new-git-repository)  
+[SVN to GIT migration](http://jausoft.com/blog/2009/07/08/svn-to-git-migration-1/)  
 [Migrating from svn to git](http://blog.zobie.com/2008/12/migrating-from-svn-to-git/)
