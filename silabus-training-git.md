@@ -1,5 +1,5 @@
 # Silabus Training Git
-##  Sesi 1
+## Sesi 1
 - Konsep Git
 	- Apa itu version control
 	- Sejarah Git
@@ -51,8 +51,8 @@
 	- Pull Request
   
 ## Sesi 4 
-- Github
-	- membuat account github
+- GitHub
+	- membuat account GitHub
 	- forking repository
 	- membuat pull request
 	- menerima pull request
