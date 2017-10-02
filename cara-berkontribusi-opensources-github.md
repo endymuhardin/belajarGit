@@ -1,80 +1,91 @@
 # Berkontribusi di Proyek git
 
 ----
-## What
-see [Pondokprogrammer](pondokprogrammer.com/tutorial-github/)
+## Latar belakang
+cek [Pondokprogrammer](pondokprogrammer.com/tutorial-github/).
 
-> Mungkin sudah terlalu sering kita bekerja mandiri pada project pribadi, disini saya akan menunjukkan bagaimana caranya berkontribusi di project lain. Hal termudah untuk mencapai itu kita cari proyek open sources, apa itu proyek opensources, Proyek perangkat lunak open source merupakan proyek yang memberikan kode program kepada penggunanya secara bebas, dan tak jarang pengembangannya dilakukan secara terbuka: siapapun boleh berkontribusi dalam menulis kode tersebut. Menggunakan perangkat lunak open source tentunya sangat baik, karena selain tidak melakukan pembajakan, kita juga mendukung para pengembang dari perangkat lunak yang kita gunakan. Tetapi, akan lebih baik lagi jika kita juga ikut berkontribusi, mulai dari kontribusi pengunaan, pelaporan bug, sampai dengan kontribusi kode. Kontribusi pada proyek open source akan membantu kita untuk meningkatkan kemampuan pengembangan perangkat lunak.".
+Mungkin sudah terlalu sering kita bekerja mandiri pada project pribadi. Disini, saya akan menunjukkan bagaimana caranya berkontribusi di project lain. Hal termudah untuk mencapai itu adalah dengan mencari proyek open source. Proyek perangkat lunak open source merupakan proyek yang memberikan kode program kepada penggunanya secara bebas, dan tak jarang pengembangannya dilakukan secara terbuka; siapapun boleh berkontribusi dalam menulis kode tersebut.
+
+Menggunakan perangkat lunak open source tentunya sangat baik, karena selain tidak melakukan pembajakan, kita juga mendukung para pengembang dari perangkat lunak yang kita gunakan. Tetapi, akan lebih baik lagi jika kita juga ikut berkontribusi, mulai dari kontribusi pengunaan, pelaporan bug, sampai dengan kontribusi kode. Kontribusi pada proyek open source akan membantu kita untuk meningkatkan kemampuan pengembangan perangkat lunak."
 
 ----
 ## Bagaimana
 
-**Welcome Contributors**
+Berikut langkah-langkahnya secara singkat:
 
-* Fork it!
-* Create your feature branch: `git checkout -b my-new-feature`
-* Commit your changes: `git commit -am 'Add some feature'`
-* Push to the branch: `git push origin my-new-feature`
-* Submit a pull request ;)
+1. Fork it!
+2. Buatlah *branch* fitur baru: `git checkout -b my-new-feature`
+3. *Commit* perubahannya: `git commit -am 'Add some features'`
+4. *Push* ke branch di *remote*: `git push origin my-new-feature`
+5. Buat *pull request*
 
-Tahapan berkontribusi yang baik,
-
-1. Cari proyek opensources. *(disini saya sebagai pengembang android saya akan memberikan contoh cara berkontribusi di salah satu proyek opensources pada library android)*
-
-  **[Material Tabs](https://github.com/neokree/MaterialTabs)**
-
-2. Coba cari cari info tentang aturan kontribusi atau bisa dengan cara melakukan pendekatan pada developer terkait baik via email atau sosial akun.
-
-3. Jika memang telah melakukan pendekatan atau tidak ada jalur lain untuk menempuh jalan tersebut, anda bisa langsung saja untuk melakukan fork project yang akan berkontribusi di dalamnya dimana nantinya kode akan di review oleh pemilik repository untuk di gabungkan atau tidaknya.
-
-4. Setelah selesai fork, maka repository akan masuk ke list repo milik anda, untuk selanjutnya mungkin langsung saja, kali ini masuk pada git command apa aja yang bisa kita gunakan untuk berkontribusi di proyek opensources beserta simulasi yang akan saya contoh kan untuk berkontribusi pada proyek library android - material tabs  .
+1. Cari proyek open source.  
+*Kali ini, saya sebagai pengembang Android akan menggunakan* **[Material Tabs](https://github.com/neokree/MaterialTabs)** *sebagai contoh.*
+2. Cari info tentang aturan kontribusi, atau hubungi developer yang terkait baik via email atau media sosial.
+3. Jika memang tidak tertera aturan kontribusi dan sang developer tidak merespon, anda bisa langsung melakukan fork proyek yang akan anda kontribusikan.
+4. Setelah selesai fork, maka repository akan masuk ke daftar repo milik anda.
 
 ----
 ## Time to GO CODE ;)
-### ` git --help` to see another commands
 
+NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 
->cloning project yang suda anda fork ke akun anda 
+1. Cloning project yang sudah anda fork ke akun anda
 
-    git clone git@github.com:CreatorB/MaterialTabs.git
+        git clone <alamat-repo>
 
->untuk memudahkan development, hendaknya kita menambahkan repository pusat dengan lokal milik kita agar tidak terjadi konflik dengan kontributor lainnya. `git remote add <nama-repo> <alamat-repo>`
+    Contoh:
 
-    git remote add upstream git://github.com/neokree/MaterialTabs.git
+        git clone git@github.com:CreatorB/MaterialTabs.git
 
->Setelah remote repositori selesai dan seperti yang saya katakan tadi agar kita tidak hanya asal berkontribusi tapi memang benar benar clear dalam membantu development maka kita hendaknya juga membuat branch baru terlebih dahulu agar tidak merusak history dan nantinya juga akan memudahkan untuk racking code. `git checkout -b <nama-cabang>`
+2. Untuk mempermudah pengembangan, hendaknya kita menambahkan repository pusat dengan lokal milik kita agar tidak terjadi konflik dengan kontributor lainnya.
 
-    git checkout -b sample-project
+        git remote add <nama-repo> <alamat-repo>
 
->Okkay sekarang setelah remote dan cabang / branch dibuat maka di cabang baru ini lah kita akan untuk melakukan perubahan kode yang nantinya bisa kita push ke repo pusat. Untuk berpindah branch bisa kita gunakan . `git checkout <nama-cabang>` dimana di repo lokal saya sekarang ada dua cabang cabang pertama adalah master dan cabang kedua adalah sample-project dan di sample-project saya bisa melakukan banyak perubahan kode. Jika memang ada penambahan file bisa menggunakan `git add <nama-file-baru>` atau kalo memang banyak file yang ditambahkan dan males add satu per satu, anda bisa langsung menuju root dari repository lalu `git add .` ya dot / titik berarti menambahkan semua perubahan yang ada di direktori tersebut secara rekursif. Setalah selesai perubahan silahkan lakukan commit, berisi pesan apa yang telah anda kontribusikan / lakukan perubahan.
+    Contoh:
 
-    git commit -m "fixing sample project and compile gradle added"
+        git remote add upstream git://github.com/neokree/MaterialTabs.git
 
->Setelah selesai melakukan commit, kita lakukan persiapan untuk pull ke repo pusat, sebelum itu kita pindah branch dulu ke master. 
+3. Setelah remote repositori selesai, buatlah branch baru agar tidak merusak history branch utama, dan juga untuk memudahkan racking code.
 
-    git checkout master
+        git checkout -b <nama-cabang>
 
->Setelah itu, kita akan mengambil kode lagi dari pusat, untuk memastikan tidak terdapat konflik pada kontribusi kode kita. Konflik dapat terjadi jika dua atau lebih kontributor melakukan perubahan pada satu berkas, terutama jika perubahan dilakukan pada baris yang sama, terlepas dari apakah tujuan perubahan sama atau tidak. Perintah yang digunakan adalah `git fetch` dan `git merge` pada cabang utama.
+    Contoh:
 
-    git fetch upstream
+        git checkout -b sample-project
 
->Setelah fetching selesai, sekarang kita merge dengan master.
+4. Di cabang baru ini lah kita akan untuk melakukan perubahan kode, yang nantinya bisa kita push ke repo pusat. Untuk berpindah branch bisa kita gunakan `git checkout <nama-cabang>`, dimana `<nama-cabang>` adalah nama yang anda gunakan pada langkah sebelumnya.
 
-    git merge upstream/master
+5. Setelah melakukan perubahan, kita bisa lakukan commit berisi deskripsi singkat tentang perubahan yang anda lakukan. Tetapi jika ada penambahan file, bisa menggunakan perintah `git add <nama-file-baru>`, atau gunakan `git add .` untuk menambahkan semua perubahan yang ada di direktori tersebut secara rekursif. Setelah itu baru bisa kita commit.
 
->Dengan beberapa proses diatas, setidaknya kita telah bisa memastikan bahwanya tidak ada konflik dengan repo pusat. Sekarang kita kembali ke branch lokal development saya .  `sample-project` 
+        git commit -m "<pesan singkat>"
 
-    git checkout sample-project
+    Contoh:
 
->dan menggabungkan cabang tersebut dengan cabang utama, sehingga kontribusi dapat dikirimkan kembali ke repositori pusat milik neokree, Material Tabs android library, dengan perintah `git rebase <nama-branch>`
+        git commit -m "fix sample project and added gradle compile"
 
-    git rebase master
+6. Setelah selesai melakukan commit, kita akan melakukan persiapan untuk membuat *pull request* (biasa disingkat PR) ke repo pusat. Pertama kita pindah branch kembali ke master. 
 
->Sebelum push ke repositori pusat milik neokree, maka terlebih dahulu akan saya push ke repository milik saya hasil fork di awal pembahasan tadi, dimana banyak perubahan yang dilakukan di branch tersebut.
+        git checkout master
 
-    git push origin sample-project
+7. Setelah itu, kita akan mengambil kode lagi dari pusat, untuk memastikan tidak terdapat konflik pada kontribusi kode kita. Konflik dapat terjadi jika dua atau lebih kontributor melakukan perubahan pada satu berkas, terutama jika perubahan dilakukan pada baris yang sama, terlepas dari apakah tujuan perubahan sama atau tidak.
 
->Setelah di push maka sekarang kita pergi menuju browser untuk melakukan pull request, cek / compare perubahan apa yang telah anda lakukan di branch anda pada branch master milik repo pusat, dan anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan, setelah yakin terhadap perubahan yang telah anda lakukan silahkan pilih create pull request dan selamat menunggu pemilik repo pusat untuk menanggapi di terima tidaknya kontribusi anda. Lebih lengkapnya bisa anda lihat di tag screenshot
+        git fetch upstream
+        git merge upstream/master
+
+8. Dengan proses diatas, setidaknya kita telah bisa memastikan bahwa tidak ada konflik dengan repo pusat. Sekarang kita kembali ke branch lokal development kita `sample-project`.
+
+        git checkout sample-project
+
+9. Setelah itu, kita gabungkan cabang tersebut dengan cabang utama, sehingga kontribusi dapat dikirimkan kembali ke repositori pusat milik neokree, Material Tabs android library, dengan perintah `git rebase <nama-branch>`.
+
+        git rebase master
+
+10. Sebelum push ke repositori pusat milik neokree, kita akan push ke repository hasil fork di awal pembahasan tadi.
+
+        git push origin sample-project
+
+11. Setelah di push, kita akan melakukan pull request dan membandingkan perubahan yang telah anda lakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create pull request dan menunggu tanggapan dari pemilik repo pusat. Lebih lengkapnya bisa anda lihat di tag screenshot.
 
 ----
 ## Screenshot
@@ -92,8 +103,8 @@ Setelah melakukan pull request maka akan menuju tampilan request yang telah anda
 ![branch-preview-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull-review.png)
 
 ----
-## Special Thank's
+## Special Thanks
 
-* [bertzzie](https://github.com/bertzzie) - My Friend's, who inspire me to write this doc :bowtie:
-* [endymuhardin](https://github.com/endymuhardin) - My Friend's Repository Owner, man who code inspire (*not only*) me but also many programmers (*maybe too*) :wink:
-* [creatorbe](https://github.com/creatorb) - me, yes i'm a man who born to code :sunglasses:
+* [bertzzie](https://github.com/bertzzie) - My Friend, who inspired me to write this doc :bowtie:
+* [endymuhardin](https://github.com/endymuhardin) - My Friend's Repository Owner, the man whose code inspired (*not only*) me but also many other programmers (*maybe you too*) :wink:
+* [creatorbe](https://github.com/creatorb) - Me, yes I'm a man born to code :sunglasses:
