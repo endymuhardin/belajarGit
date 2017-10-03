@@ -1,6 +1,6 @@
 # Workflow Basic
 
-```
+```bash
 $ git clone
 $ git branch -a
 $ git checkout -b topic-branch

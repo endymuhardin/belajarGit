@@ -1,6 +1,6 @@
 # Outline Buku Git
 
-## Part 1 : Basic
+## Part 1: Basic
 - Apa Itu Version Control
 - Sejarah Git
 - Cara Kerja Git
@@ -46,7 +46,7 @@
 	- rerere
 	- bisect
 
-## Part 2 : Kolaborasi
+## Part 2: Kolaborasi
 - Sharing Repository
 	- Via SSH Server
 	- Gitosis
@@ -64,7 +64,7 @@
 	- Github
 	- Gitorious
 
-## Part 3 : Administration
+## Part 3: Administration
 - Instalasi Server
 	- Gitosis
 	- Gitweb
