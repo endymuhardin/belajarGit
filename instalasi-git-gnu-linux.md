@@ -12,3 +12,8 @@ apt install git
 ```
 slackpkg install git
 ```
+## Ubuntu and Mint
+```
+sudo apt-get update
+sudo apt-get install git
+```
