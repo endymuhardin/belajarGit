@@ -13,7 +13,7 @@ Atau bisa dibilang *cara kerja menggunakan Git*
 
       $ git clone myrepo
 
-- Hacking / rubah code
+- Hacking / ubah kode
 - Commit
 
       $ git commit -am "log message"
@@ -26,7 +26,7 @@ Atau bisa dibilang *cara kerja menggunakan Git*
 
 
 ### Outcome:
-- Commit gak jelas juntrungannya
+- Commit tidak jelas juntrungannya
 - Tiap commit tidak bisa di-apply sebagai patch yang solid
 - Merge commit di mana-mana
 
@@ -35,7 +35,7 @@ Atau bisa dibilang *cara kerja menggunakan Git*
 ## Git Zealot
 ### Ciri khas:
 - Commit per task
-- Bikin branch bahkan untuk ngerjain 1 commit doang
+- Membuat branch bahkan untuk mengerjakan 1 commit saja
 - Rebase melulu
 
 ### Cara kerja:
@@ -44,12 +44,12 @@ Atau bisa dibilang *cara kerja menggunakan Git*
       $ git clone myrepo
       $ git checkout -b topic-branch
 
-- Hack / rubah code
-- Pilih hunk yang mau distage
+- Hack / ubah kode
+- Pilih hunk yang mau di-stage
 
       $ git add -i
 
-- Commit terus Push ke branch baru yang telah dibuat
+- Commit, lalu push ke branch baru yang telah dibuat
 
       $ git commit -m "log message"
       $ git push origin topic-branch
@@ -64,7 +64,7 @@ Atau bisa dibilang *cara kerja menggunakan Git*
       $ git checkout topic-branch
 
 - Pilih:
-  - `$ git rebase master` (awas intermediate commit juga harus ditest)
+  - `$ git rebase master` (awas, intermediate commit juga harus ditest)
   - `$ git checkout master` dan `$ git merge topic-branch` (jadi ada merge commit) (preferred seperti katanya [nvie](http://nvie.com/posts/a-successful-git-branching-model/))
 - Resolve conflicts
 - Commit
@@ -75,10 +75,10 @@ Atau bisa dibilang *cara kerja menggunakan Git*
 
       $ git format-patch
 
-- send untuk review/pull request
+- Send untuk review/pull request
 
 ### Outcome:
 - Clean, linear history
 - Patch bisa di-apply secara clean
 - Tiap commit jelas urusannya
-- Butuh waktu lama untuk pilih2 hunk
+- Butuh waktu lama untuk pilih-pilih hunk
