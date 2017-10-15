@@ -105,7 +105,7 @@
     git checkout master
     ```
 
-10. Update dulu repo lokal, kali aja ada yang sudah commit sementara kita sibuk
+10. Update repo lokal terlebih dahulu, mungkin saja ada yang sudah commit sementara kita sibuk
     ```
     git svn rebase
     git fetch origin + git merge origin/master
@@ -115,28 +115,28 @@
     ```
     git merge --no-ff --no-commit branch_kerja
     ```
-    `no-ff`: semua commit gabung jadi satu, dicommit lagi di branch tujuan  
-    `no-commit`: jangan langsung commit, biarin aja di staging index, supaya kita bisa bikin commit msg sendiri biasanya berisi release note  
+    `no-ff`: semua commit gabung jadi satu, di-commit lagi di branch tujuan  
+    `no-commit`: jangan langsung commit, biarkan saja di staging index, supaya kita bisa membuat commit message sendiri biasanya berisi release note  
     `squash`: semua commit digabung jadi 1  
 
-    kadang-kadang kena fast forward kalau di master tidak ada commit, sehingga historinya menjadi linier  
+    Kadang-kadang terjadi fast forward kalau di master tidak ada commit, sehingga historinya menjadi linier  
     Kalau master tidak ada commitnya, gunakan opsi `--no-ff` untuk menandai commit
     ```
     git merge --squash --no-ff branch_kerja
     ```
 
-    Fast forward adalah memindahkan pointer HEAD branch target menjadi sama seperti branch asal.  
+    Fast forward adalah pemindahan pointer HEAD branch target menjadi sama seperti branch asal.  
     Merge fast forward tidak menimbulkan commit baru
 
-12. Cek dulu apakah ada konflik.
-    Kalau ada, fix dulu, baru commit. 
+12. Cek apakah ada konflik.
+    Kalau ada, fix terlebih dahulu, baru commit. 
     Kalau tidak ada, ya langsung saja commit
     ```
     git add .
     git commit -m "implement task #12"
     ```
 
-13. Sudah ok semua, commit ke svn repo
+13. Sudah oke semua, commit ke svn repo
     ```
     git svn dcommit
     ```
@@ -147,7 +147,7 @@
         ```
         git reset --hard HEAD 
         ```
-    - Skenario 2: sudah add tapi belum commit, add nya mau dicancel
+    - Skenario 2: sudah add tapi belum commit, add-nya mau di-cancel
         ```
         git reset -- namafile
         ```
@@ -177,7 +177,7 @@
         ```
 
 15. Interrupted workflow
-Misalnya, lagi asik tambah fitur, ada request bugfix
+Misalnya, sedang asyik tambah fitur, ada request bugfix
 
     - pindahkan work in progress ke branch baru
         ```
@@ -233,13 +233,13 @@ Skema URL:
     git fetch namaremote
     ```
 
-untuk meremove juga branch yang sudah gak ada di remote, gunakan 
+untuk menghapus juga branch yang sudah tidak ada di remote, gunakan 
 opsi `--prune`
     ```
     git fetch --prune namaremote
     ```
 
-4. Setelah difetch, merge ke local supaya bisa diedit
+4. Setelah di-fetch, merge ke local supaya bisa diedit
     ```
     git merge 
     ```
@@ -256,7 +256,7 @@ Otomatis checkout
     git checkout -b localbranch namaremote/remotebranch
     ```
 
-Kalo namanya sama (localbranch = remotebranch), bisa pakai `--track`
+Kalau namanya sama (localbranch = remotebranch), bisa pakai `--track`
     ```
     git checkout --track namaremote/remotebranch
     ```
@@ -266,12 +266,12 @@ Kalo namanya sama (localbranch = remotebranch), bisa pakai `--track`
     git push namaremote localbranch:remotebranch
     ```
 
-    kalau nama branch di remote sama dengan local
+    Kalau nama branch di remote sama dengan local
     ```
     git push namaremote namabranch
     ```
 
-    kalau dikosongkan, git akan push ke remote branch yang namanya sama dengan local  
+    Kalau dikosongkan, git akan push ke remote branch yang namanya sama dengan local  
     misalnya master &rarr; namaremote/master
     ```
     git push namaremote

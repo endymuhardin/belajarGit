@@ -4,7 +4,7 @@
 $ git clone
 $ git branch -a
 $ git checkout -b topic-branch
-$ // Hacking / rubah code
+$ // Hacking / ubah kode
 $ git add .
 $ git commit -m "commit log"
 $ git checkout master

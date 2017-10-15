@@ -5,7 +5,7 @@
     svnadmin dump /path/ke/repo/svn > nama-file-dump
     ```
 
-2. Copy ke pc kita sendiri supaya cepat prosesnya
+2. Copy ke PC kita sendiri supaya cepat prosesnya
 
 3. Restore lagi
     ```bash
@@ -60,7 +60,7 @@
     git clone --bare git-svn-migrasi-project nama-project.git
     ```
 
-12. Copy ke server untuk disharing menggunakan Gitosis
+12. Copy ke server untuk di-share menggunakan Gitosis
 
 
 

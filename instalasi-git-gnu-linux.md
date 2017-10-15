@@ -1,5 +1,5 @@
 # Instalasi Git di GNU/Linux
-Meski di berberapa distro GNU/Linux telah di sediakan git secara bawaan,akan tetapi tidak semua distro membawa git secara bawaan di dalam distronya
+Meski di berberapa distro GNU/Linux telah disediakan git secara bawaan, akan tetapi tidak semua distro membawa git secara bawaan di dalam distronya
 ## Arch Linux
 ```
 pacman -S git
