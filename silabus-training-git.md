@@ -60,3 +60,8 @@
 	- merge vs rebase
 	- mengelola paralel development
 	- release management
+	
+	
+	
+	
+// good
