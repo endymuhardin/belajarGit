@@ -13,3 +13,5 @@ $ git merge topic-branch
 $ //Resolve conflicts 
 $ git push
 ```
+
+// nice
