@@ -12,3 +12,7 @@ apt install git
 ```
 slackpkg install git
 ```
+## Centos/Fedora/RHEL
+```
+yum install git
+```
