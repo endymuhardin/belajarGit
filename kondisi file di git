@@ -1,0 +1,4 @@
+tiga kondisi file di git
+1. modified :terdapat perubahan atau penambahan file
+2. staged : kondisi file sudah ditandai namun belum di simpan
+3. Commited : kondisi file sudah disimpan di vc
