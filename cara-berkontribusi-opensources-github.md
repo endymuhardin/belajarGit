@@ -2,7 +2,7 @@
 
 ----
 ## Latar belakang
-cek [Pondokprogrammer](pondokprogrammer.com/tutorial-github/).
+cek [Pondokprogrammer](http://www.pondokprogrammer.com/).
 
 Mungkin sudah terlalu sering kita bekerja mandiri pada project pribadi. Disini, saya akan menunjukkan bagaimana caranya berkontribusi di project lain. Hal termudah untuk mencapai itu adalah dengan mencari proyek open source. Proyek perangkat lunak open source merupakan proyek yang memberikan kode program kepada penggunanya secara bebas, dan tak jarang pengembangannya dilakukan secara terbuka; siapapun boleh berkontribusi dalam menulis kode tersebut.
 
@@ -92,15 +92,17 @@ NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 
 Ganti branch master ke branch yang anda buat (sample-project) dan pilih pull request / new pull request.
 
-![branch-sampleproject-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull.png)
+![ganti-branch](screenshots/cara-kontribusi/ganti-branch.png?raw=true)
+
+![pilih-pull-request](screenshots/cara-kontribusi/pilih-pull-request.png?raw=true)
 
 Setelah itu anda akan masuk pada konfirmasi pull request, disini anda bisa membandingkan code antar branch dan menyisipkan komentar.
 
-![branch-review-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull-message.png)
+![konfirmasi-pull-request](screenshots/cara-kontribusi/konfirmasi-pull-request.png?raw=true)
 
 Setelah melakukan pull request maka akan menuju tampilan request yang telah anda lakukan terhadap project tersebut.
 
-![branch-preview-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull-review.png)
+![tampilan-pull-request](screenshots/cara-kontribusi/tampilan-pull-request.png?raw=true)
 
 ----
 ## Special Thanks
