@@ -1,0 +1,28 @@
+ Tutorial Membuat Akun GitHub
+
+pada postingan kali ini kita akan BELAJAR BERSAMA cara membuat akun github, buat yang belum tau apa itu GitHub berikut penjelasan singkatnya 
+
+GitHub adalah situs jejaring sosial yang banyak digunakan oleh software developer atau programmer untuk menyimpan project - project opensource mereka, dimana project tersebut dapat dikembangkan oleh programmer lain sebagai team maupun per-individu. Saat kita melakukan perubahan pada project kita dan di upload ulang (push) ke repository maka project yang lama masih disimpan dan tidak akan hilang, jadi akan memudahkan kita bila kita ingin melihat, menganaslisa atau mendownload versi sebelumnya.
+
+Berikut alasan mengapa kita perlu mempunyai akun GitHub :
+
+
+    Tempat meyimpan projects (backup), untuk berjaga - jaga apabila file project kita rusak atau hilang yang disebabkan oleh virus dan lainnya.
+    Project kita OpenSource, Github menyediakan free hosting untuk project open source, dan hosting berbayar untuk project perusahaan atau pribadi yang sifatnya bukan opensource.
+    Github ditargetkan untuk para developer, yang bekerja secara tim dan tidak disatu tempat.
+    Github mendukung semua bahasa pemrograman, anda bebas memakai bahasa pemrograman dan tool yang biasa anda pakai.
+    GitHub juga bisa sebagai media sosial, memiliki beberapa fitur diantaranya user profile, Follow, "fork me", Star, Watch, dan lainnya.
+    Ada fitur Fork, mengcopy keseluruhan code repository ke repo kita sendiri.
+    Tempat mencari kode snippet (Gist)
+    Tempatnya para Programmer membagikan Project OpenSource mereka
+
+
+setelah mengetahui apa itu GitHub dan alasan mengapa kita memerlukan akun GitHub, sekarang kita akan BELAJAR BERSAMA cara membuat akun GitHub. 
+
+MEMBUAT AKUN GITHUB
+
+    Buka www.github.com pada browser , Klik Sign up
+
+     Masukkan data diri sesuai form  yang tersedia
+      Setelah meng-klik tombol Create Account, masuk ke jendela pilihan personal plan, silahkan pilih "unlimited public repositories for free" untuk akun yang tidak berbayar. Dan apabila ingin yang akun yang private, silahkan pilih yang berbayar.  Kemudian klik Finish sign up
+    Akun GitHub telah selesai dibuat, namun harus verifikasi akun yang akan dikirimkan pihak Github melalui email yang telah daftarkan sebelumnya. Setelah konfirmasi, kita sudah dapat membuat Repository.
