@@ -90,17 +90,19 @@ NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 ----
 ## Screenshot
 
+notabene: Semua foto yang telah diunggah telah diubah sesuai dengan tampilan terbaru Github. Sumber untuk semua gambar diambil dari berbagai video Youtube dan bukan milik pribadi.
+
 Ganti branch master ke branch yang anda buat (sample-project) dan pilih pull request / new pull request.
 
-![branch-sampleproject-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull.png)
+![branch-sampleproject-creatorbe-screenshot](https://github.com/dejazzhands/pictures/blob/main/image1.jpg)
 
 Setelah itu anda akan masuk pada konfirmasi pull request, disini anda bisa membandingkan code antar branch dan menyisipkan komentar.
 
-![branch-review-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull-message.png)
+![branch-review-creatorbe-screenshot](https://github.com/dejazzhands/pictures/blob/main/image2.png)
 
 Setelah melakukan pull request maka akan menuju tampilan request yang telah anda lakukan terhadap project tersebut.
 
-![branch-preview-creatorbe-screenshot](https://raw.githubusercontent.com/CreatorB/ss/master/git/jasaprogrammer-creatorbe-pondokprogrammer-pull-review.png)
+![branch-preview-creatorbe-screenshot](https://github.com/dejazzhands/pictures/blob/main/image3.png)
 
 ----
 ## Special Thanks
