@@ -350,13 +350,13 @@ Add Project:
     git bisect rev-terakhir-yang-masih-bagus
     ```
 
-- git akan switch ke pertengahan rev-bagus dan current
-- cek file yang menimbulkan bug, atau test aplikasinya
+- git akan switch ke pertengahan rev-bagus dan juga current
+- cek file yang menimbulkan bug, atau test aplikasinya 
 - kalau bagus, ketik git bisect good
 - kalau broken, ketik git bisect bad
-- teruskan sampai ketemu pesan 
+- teruskan sampai mendapat pesan 
 `a25f13e5e924e55752fd39f7164627ce822ba699 is the first bad commit`
-- itulah commit yang menyebabkan error
+- itulah commit yang menyebabkan terjadinya error
 - kembalikan ke posisi awal
     ```
     git bisect reset
